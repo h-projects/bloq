@@ -1,0 +1,36 @@
+#tags > div {
+	background-color: var(--bgThird);
+}
+
+#author {
+	text-align: center;
+	margin: 10px;
+	transition: all 0.1s ease;
+	background: var(--bgThird);
+	border-radius: var(--radius);
+	padding: 10px;
+	display: grid;
+	grid-template-areas: "data desc";
+	
+}
+
+
+#info > img {
+  border-radius: 100%;
+}
+
+#info {
+	grid-area: data;
+	background: var(--bgFourth);
+}
+
+#desc {
+	grid-area: desc;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  padding: 5px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<!-- import over styles -->
+	<script src="https://h-projects.github.io/common/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/common/theme.css">
+	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/common/index.css">
+	<link rel="stylesheet" href="https://h-projects.github.io/bloq/_layouts/style.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169183883-1"></script>
+	<script>
+		window.dataLayer=window.dataLayer||[];
+		function gtag() {dataLayer.push(arguments);}	
+		gtag('js',new Date());
+
+		gtag('config','UA-169183883-1');
+	</script>
+	<!-- set retarded web stuff like open graph and search engine optimization -->
+	<title>Aytch Software | {{page.title}}</title>
+	<meta name="description" content="{{page.description}}">
+	<meta name="twitter:creator" content="{{page.author.twitter}}">
+	<meta property="og:title" content="{{page.title}}">
+	<meta property="og:type" content="blog">
+	<meta name="twitter:site" content="@AytchSoftware">
+	<meta property="og:image" content="{{page.image}}">
+	<meta property="og:image:alt" content="{{page.alt}}">
+	<meta property="og:site_name" content="Aytch Software">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>	
+	<header>
+		<nav>
+			<ul>
+				<a href="/"><img src="https://h-projects.github.io/loqo.png" height="64" width="64"
+						alt="Loqo"></img></a>
+				<li>
+					<a href="/about">About</a><a href="/apps">Apps</a></a><a href="/docs">Docs</a><a
+						href="/contact">Contact</a>
+				</li>
+
+			</ul>
+		</nav>
+	</header>
+	<main>
+		{% if page.categroies %}
+		<div id="categories"></div>
+			<h3>Posted in</h3>
+			<div>{{ page.categories | join: "</div>" - "<div>" }}
+		</div>
+		{% endif %}
+		<img src="{{page.image}}" alt="{{page.alt}}">
+		<h1>{{page.title}}</h1>
+		<p id="lowContrast">{{page.date}}</p>
+		<p>{{page.description}}</p>
+
+		{{content}}
+		
+		<div id="author">
+			<div id="data">
+				<img src="{{page.author.image" alt="{{page.author.alt}}" width="128" height="128">
+				<h3>{{page.author.name}}</h3>
+			</div>
+			<div id="info">
+				<p>{{page.author.info}}</p>
+				<a href="{{page.author.site}}"><button>Visit their site</button></a>
+			</div>
+		</div>	
+
+		{% if page.tags %}
+		<div id="tags">
+			<h3>Taqs</h3>
+			<div>{{ page.tags | join: "</div>" - "<div>" }}
+
+		</div>
+		{% endif %}
+		<p>Are you lookinq for the comments section? <a href="https://discord.gg/AbUw9fh">Join the Aytch Software discord server!</a></p>
+	</main>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="/about/credits">Credits</a><a href="/sitemap">Sitemap</a><a href="/brand">Brand And
+						Press</a><a href="/reviews">Reviews</a></li>
+			</ul>
+		</nav>
+		&copy; Aytch Software 2020
+	</footer>
+</body>
+
+</html>
