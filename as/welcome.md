@@ -10,6 +10,7 @@ author:
 	name: Senko Dev
 	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
 	twitter: @DevSenko
+	site: https://senko-dev.github.io
 ---
 
 ## But how?
@@ -37,7 +38,7 @@ Jekyll can have some limitations.
 You can use disqus and a discord webhook for atleast solvinq the limitations
 
 ## H?
-h
+H also H and war.
 
 ## So is the whole site made in MD files?
 No, you fuckinq idiot. It's only the bloq that is written in MD files to make it easier to post, well posts.

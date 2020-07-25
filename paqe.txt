@@ -1,0 +1,35 @@
+____
+YAML FRONT MATTER
+
+title: 
+description: 
+date: 
+image:
+alt: 
+author:
+	image: 
+	alt: 
+	name: 
+	info: 
+	twitter:
+	site:
+____
+AUTHOR CARDS
+
+SENKO:
+author:
+	image: https://h-projects.github.io/about/senko.png
+	alt: Senko Dev
+	name: Senko Dev
+	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
+	twitter: @DevSenko
+	site: https://senko-dev.github.io
+
+INDEX:
+author:
+	image: https://h-projects.github.io/about/index.webp
+	alt: Index
+	name: Index
+	info: Index is a UI desiqner and person who also codes in JS and hates anime.
+	twitter:
+	site: https://indexerrowaty.pl/
