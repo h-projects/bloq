@@ -5,8 +5,8 @@
 
 	<!-- import over styles -->
 	<script src="https://h-projects.github.io/common/index.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/common/theme.css">
-	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/common/index.css">
+	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/assets/css/theme.css">
+	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/assets/css/index.css">
 	<link rel="stylesheet" href="https://h-projects.github.io/bloq/_layouts/style.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169183883-1"></script>
 	<script>
@@ -18,15 +18,15 @@
 	</script>
 	<!-- set retarded web stuff like open graph and search engine optimization -->
 	<title>Aytch Software | {{page.title}}</title>
-	<meta name="description" content="{{page.description}}">
-	<meta name="twitter:creator" content="{{page.author.twitter}}">
-	<meta property="og:title" content="{{page.title}}">
-	<meta property="og:type" content="blog">
-	<meta name="twitter:site" content="@AytchSoftware">
-	<meta property="og:image" content="{{page.image}}">
-	<meta property="og:image:alt" content="{{page.alt}}">
-	<meta property="og:site_name" content="Aytch Software">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content={{page.subheadline}}>
+	<meta name="twitter:creator" content={{page.writer.twitter}}>
+	<meta property="og:title" content={{page.headline}}>
+	<meta property="og:type" content=blog">
+	<meta name="twitter:site" content=@AytchSoftware">
+	<meta property="og:image" content={{page.image}}>
+	<meta property="og:image:alt" content={{page.alt}}>
+	<meta property="og:site_name" content=Aytch Software">
+	<meta name="viewport" content=width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -38,28 +38,28 @@
 						alt="Loqo"></img></a>
 				<li>
 					<a href="/about">About</a><a href="/apps">Apps</a></a><a href="/docs">Docs</a><a
-						href="/contact">Contact</a>
+						href="/contact">Contact</a><a href="/bloq" id="selected">Bloq</a>
 				</li>
 
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<img src="{{page.image}}"  width alt="{{page.alt}}">
-		<h1>{{page.title}}</h1>
+		<img src={{page.image}} alt={{page.alt}}>
+		<h1>{{page.headline}}</h1>
 		<p id="lowContrast">{{page.date}}</p>
-		<p>{{page.description}}</p>
+		<p>{{page.subheadline}}</p>
 
 		{{content}}
 		
 		<div id="author">
 			<div id="data">
-				<img src="{{page.author.image}}" alt="{{page.author.alt}}" width="128" height="128">
+				<img src={{page.writer.image}} alt={{page.writer.alt}} width="128" height="128">
 				<h3>{{page.author.name}}</h3>
 			</div>
 			<div id="info">
-				<p>{{page.author.info}}</p>
-				<a href="{{page.author.site}}"><button>Visit their site</button></a>
+				<p>{{page.writer.info}}</p>
+				<a href={{page.writer.site}}><button>Visit their site</button></a>
 			</div>
 		</div>	
 		

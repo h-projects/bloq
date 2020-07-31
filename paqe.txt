@@ -1,3 +1,7 @@
+___
+ADDING POSTS
+
+
 ____
 YAML FRONT MATTER
 
@@ -6,7 +10,7 @@ description:
 date: 
 image:
 alt: 
-author:
+writer:
 	image: 
 	alt: 
 	name: 
@@ -14,11 +18,11 @@ author:
 	twitter:
 	site:
 ____
-AUTHOR CARDS
+WRITER CARDS
 
 SENKO:
-author:
-	image: https://h-projects.github.io/about/senko.png
+writer:
+	image: https://h-projects.github.io/assets/images/people/senko.png
 	alt: Senko Dev
 	name: Senko Dev
 	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
@@ -26,10 +30,10 @@ author:
 	site: https://senko-dev.github.io
 
 INDEX:
-author:
-	image: https://h-projects.github.io/about/index.webp
+writer:
+	image: https://h-projects.github.io/assets/images/people/index.webp
 	alt: Index
 	name: Index
 	info: Index is a UI desiqner and person who also codes in JS and hates anime.
-	twitter:
+	twitter: 
 	site: https://indexerrowaty.pl/

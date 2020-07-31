@@ -1,11 +1,11 @@
 ---
-title: Welcome to The Aytch Software bloq!
-description: It's finally here! I am finally proud to annouce the new AS Bloq. After many hours of hard work and fuckinq with custom jekyll themes. We will bloq about h, tech and aytch software.
+headline: Welcome to The Aytch Software bloq!
+subheadline: It's finally here! I am finally proud to annouce the new AS Bloq. After many hours of hard work and fuckinq with custom jekyll themes. We will bloq about h, tech and aytch software.
 date: 2020-7-24
-image: https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=80
+image: https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
 alt: Hello on an iPhone screen	
-author:
-	image: https://h-projects.github.io/about/senko.png
+writer:
+	image: https://h-projects.github.io/assets/images/people/senko.png
 	alt: Senko Dev
 	name: Senko Dev
 	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
@@ -14,9 +14,9 @@ author:
 ---
 
 ## But how?
-This bloq is made usinq (Jekyll)[https://jekyllrb.com/] and a custom theme writen by SenkoDev.
+This bloq is made usinq [Jekyll](https://jekyllrb.com/) and a custom theme writen by SenkoDev.
 
-!(Jekyll Octocat)[https://import.jekyllrb.com/img/octojekyll.png]
+![Jekyll Octocat](https://import.jekyllrb.com/img/octojekyll.png)
 
 ## But why?
 There are many reasons you may want to bloq wwith jekyll.
