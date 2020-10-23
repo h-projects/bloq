@@ -5,7 +5,7 @@ date: 2020-7-24
 image: https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
 alt: Hello on an iPhone screen	
 writer:
-	image: https://h-projects.github.io/assets/images/people/senko.png
+	image: https://aytchsoftware.tk/assets/images/people/senko.png
 	alt: Senko Dev
 	name: Senko Dev
 	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.

@@ -4,10 +4,10 @@
 <head>
 
 	<!-- import over styles -->
-	<script src="https://h-projects.github.io/common/index.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/assets/css/theme.css">
-	<link rel="stylesheet" type="text/css" href="https://h-projects.github.io/assets/css/index.css">
-	<link rel="stylesheet" href="https://h-projects.github.io/bloq/_layouts/style.css">
+	<script src="https://aytchsoftware.tk/common/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://aytchsoftware.tk/assets/css/theme.css">
+	<link rel="stylesheet" type="text/css" href="https://aytchsoftware.tk/assets/css/index.css">
+	<link rel="stylesheet" href="https://aytchsoftware.tk/bloq/_layouts/style.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169183883-1"></script>
 	<script>
 		window.dataLayer=window.dataLayer||[];
@@ -17,14 +17,14 @@
 		gtag('config','UA-169183883-1');
 	</script>
 	<!-- set retarded web stuff like open graph and search engine optimization -->
-	<title>Aytch Software | {{page.title}}</title>
-	<meta name="description" content={{page.subheadline}}>
-	<meta name="twitter:creator" content={{page.writer.twitter}}>
-	<meta property="og:title" content={{page.headline}}>
+	<title>Aytch Software | {{ page.title }}</title>
+	<meta name="description" content={{ page.subheadline }}>
+	<meta name="twitter:creator" content={{ page.writer.twitter }}>
+	<meta property="og:title" content={{ page.headline }}>
 	<meta property="og:type" content=blog">
 	<meta name="twitter:site" content=@AytchSoftware">
-	<meta property="og:image" content={{page.image}}>
-	<meta property="og:image:alt" content={{page.alt}}>
+	<meta property="og:image" content={{ page.image }}>
+	<meta property="og:image:alt" content={{ page.alt }}>
 	<meta property="og:site_name" content=Aytch Software">
 	<meta name="viewport" content=width=device-width, initial-scale=1.0">
 
@@ -34,7 +34,7 @@
 	<header>
 		<nav>
 			<ul>
-				<a href="/"><img src="https://h-projects.github.io/loqo.png" height="64" width="64"
+				<a href="/"><img src="https://aytchsoftware.tk/loqo.png" height="64" width="64"
 						alt="Loqo"></img></a>
 				<li>
 					<a href="/about">About</a><a href="/apps">Apps</a></a><a href="/docs">Docs</a><a
@@ -45,21 +45,22 @@
 		</nav>
 	</header>
 	<main>
-		<img src={{page.image}} alt={{page.alt}}>
-		<h1>{{page.headline}}</h1>
-		<p id="lowContrast">{{page.date}}</p>
-		<p>{{page.subheadline}}</p>
+		<img src={{ page.image }} alt={{ page.alt }}>
+		<h1>{{ page.headline }}</h1>
+		<p id="lowContrast">{{ page.date }}</p>
+		<p>{{ page.subheadline }}</p>
 
-		{{content}}
+		{{ content }}
 		
 		<div id="author">
 			<div id="data">
-				<img src={{page.writer.image}} alt={{page.writer.alt}} width="128" height="128">
-				<h3>{{page.author.name}}</h3>
+				<img src={{ page.writer.image }} alt={{ page.writer.alt }} width="128" height="128">
+				<h3>{{ page.author.name }}</h3>
+				<p id="lowContrast">{{ page.writer.twitter }}</p>
 			</div>
 			<div id="info">
-				<p>{{page.writer.info}}</p>
-				<a href={{page.writer.site}}><button>Visit their site</button></a>
+				<p>{{ page.writer.info }}</p>
+				<a href={{ page.writer.site }}><button>Visit their site</button></a>
 			</div>
 		</div>	
 		
