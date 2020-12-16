@@ -26,7 +26,7 @@ writer:
 	alt: Senko Dev
 	name: Senko Dev
 	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
-	twitter: @DevSenko
+	twitter: @Dev_Senko
 	site: https://senko-dev.github.io
 
 INDEX:
