@@ -23,11 +23,11 @@ WRITER CARDS
 SENKO:
 writer:
 	image: https://aytchsoftware.tk/assets/images/people/senko.png
-	alt: Senko Dev
-	name: Senko Dev
-	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
-	twitter: @Dev_Senko
-	site: https://senko-dev.github.io
+	alt: Laura
+	name: Laura Breckams
+	info: Laura is a front end dev, desiqner and weeb who also makes discord bots.
+	twitter: @DevSenko
+	site: https://DevSenko.github.io
 
 INDEX:
 writer:

@@ -6,11 +6,11 @@ image: https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixlib=rb-1.2
 alt: Hello on an iPhone screen	
 writer:
 	image: https://aytchsoftware.tk/assets/images/people/senko.png
-	alt: Senko Dev
-	name: Senko Dev
-	info: Senko Dev is a front end dev, desiqner and weeb who also makes discord bots.
+	alt: Laura
+	name: Laura Breckams
+	info: Laura is a front end dev, desiqner and weeb who also makes discord bots.
 	twitter: @DevSenko
-	site: https://senko-dev.github.io
+	site: https://DevSenko.github.io
 ---
 
 ## But how?
